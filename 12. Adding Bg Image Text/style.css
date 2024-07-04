@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Rubik+Glitch+Pop&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Glitch Pop", system-ui;
+  background: black;
+}
+.heading {
+  font-size: 9rem;
+  font-weight: 900;
+  background: url(https://envato-shoebox-0.imgix.net/b1d2/16bc-4854-4654-9b14-934b42e63d2d/DSC_2072.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=800&fit=max&markalign=center%2Cmiddle&markalpha=18&s=de7b8475d62702260945fec1ef285f6e);
+  white-space: nowrap;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
