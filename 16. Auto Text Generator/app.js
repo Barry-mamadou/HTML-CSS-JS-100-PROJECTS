@@ -11,7 +11,7 @@ let charIndex = 0;
 
 const type = () => {
   if (charIndex < words[index].length) {
-    typedTextSpan.textContent += words[index].charAt(charIndex);
+    typedTextSpan.innerHTML += words[index].charAt(charIndex);
     charIndex++;
     setTimeout(type, typingDelay);
   } else {
@@ -20,7 +20,7 @@ const type = () => {
 };
 const erase = () => {
   if (charIndex > 0) {
-    typedTextSpan.textContent = words[index].substring(0, charIndex - 1);
+    typedTextSpan.innerHTML = words[index].substring(0, charIndex - 1);
     charIndex--;
     setTimeout(erase, erasingDElay);
   } else {
